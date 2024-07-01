@@ -1,5 +1,6 @@
 package br.edu.utfpr.marcorozo.trabalhointegracaocarsapp.ui.car.list
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -238,11 +239,15 @@ private fun FilledList(
     onCarPressed: (Car) -> Unit,
 ) {
     LazyColumn(
-        modifier = Modifier.padding(vertical = 2.dp)
+        modifier = Modifier.padding(vertical = 6.dp)
     ) {
         itemsIndexed(cars) { index, car ->
             ListItem(
-                modifier = modifier.padding(8.dp),
+                modifier = modifier
+                    .padding(8.dp)
+                    .clickable {
+                        onCarPressed(car)
+                    },
                 headlineContent = {
                     Text(
                         text = "${car.id} - ${car.name}",

@@ -212,7 +212,7 @@ fun CarDetails(
             .fillMaxSize()
             .verticalScroll(rememberScrollState())
     ) {
-        CarTitle(text = "${R.string.codigo} - ${car.id}")
+        CarTitle(text = "${stringResource(R.string.codigo)} - ${car.id}")
         CarAttribute(
             attributeName = stringResource(R.string.nome),
             attributeValue = car.name
