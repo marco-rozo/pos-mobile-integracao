@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Trabalho Integracao Cars App</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="erro_ao_carregar">Erro ao carregar</string>
+    <string name="aguarde_um_momento_e_tente_novamente">Aguarde um momento e tente novamente</string>
+    <string name="tentar_novamente">Tentar novamente</string>
+    <string name="confirmar_e_remover_carro">Confirmar e remover carro</string>
+    <string name="atencao">Atenção</string>
+    <string name="carregando">Carregando</string>
+    <string name="detalhes_do_carro">Detalhes do carro</string>
+    <string name="voltar">Voltar</string>
+    <string name="editar">Editar</string>
+    <string name="remover">Remover</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="codigo">codigo - %1$s</string>
+    <string name="nome">Nome</string>
+    <string name="valor">Valor</string>
+    <string name="informacoes">Informações</string>
+    <string name="ano_fabricacao">Ano fabricação</string>
+    <string name="torque">Torque</string>
+    <string name="erro_ao_remover_carro">Erro ao remover carro</string>
+</resources>
