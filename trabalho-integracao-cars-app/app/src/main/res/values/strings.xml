@@ -12,6 +12,7 @@
     <string name="voltar">Voltar</string>
     <string name="editar">Editar</string>
     <string name="remover">Remover</string>
+    <string name="salvar">Salvar</string>
     <string name="confirmar">Confirmar</string>
     <string name="cancelar">Cancelar</string>
     <string name="codigo">Código</string>
@@ -21,4 +22,16 @@
     <string name="ano_fabricacao">Ano fabricação</string>
     <string name="torque">Torque</string>
     <string name="erro_ao_remover_carro">Erro ao remover carro</string>
+    <string name="erro_ao_salvar_carro">Erro ao salvar carro</string>
+    <string name="novo_carro">Novo carro</string>
+    <string name="editar_carro">Editar carro</string>
+    <string name="nome_obrigatorio">nome obrigatório</string>
+    <string name="potencia_obrigatorio">Potencia obrigatorio</string>
+    <string name="ano_obrigatorio">Ano obrigatorio</string>
+    <string name="ano_invalido">Ano invalido</string>
+    <string name="valor_obrigatorio">Valor obrigatorio</string>
+    <string name="valor_invalido">Valor invalido</string>
+    <string name="a_seguinte_mensagem_retornou_do_server">A seguinte mensagem retornou do server</string>
+    <string name="ok">Ok</string>
+    <string name="a_definir">a definir</string>
 </resources>

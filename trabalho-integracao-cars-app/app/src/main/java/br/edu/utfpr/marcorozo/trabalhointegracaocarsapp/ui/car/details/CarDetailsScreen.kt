@@ -38,6 +38,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import br.edu.utfpr.marcorozo.trabalhointegracaocarsapp.R
 import br.edu.utfpr.marcorozo.trabalhointegracaocarsapp.data.car.Car
 import br.edu.utfpr.marcorozo.trabalhointegracaocarsapp.ui.theme.TrabalhoIntegracaoCarsAppTheme
+import br.edu.utfpr.marcorozo.trabalhointegracaocarsapp.ui.utils.composables.DefaultErrorLoading
 import br.edu.utfpr.marcorozo.trabalhointegracaocarsapp.ui.utils.composables.DefaultLoading
 
 

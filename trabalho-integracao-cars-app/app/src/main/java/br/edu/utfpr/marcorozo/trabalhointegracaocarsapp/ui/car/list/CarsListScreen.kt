@@ -41,6 +41,7 @@ import br.edu.utfpr.marcorozo.trabalhointegracaocarsapp.ui.theme.TrabalhoIntegra
 fun CarsListScreen(
     modifier: Modifier = Modifier,
     viewModel: CarsListViewModel = viewModel(),
+    onAddPressed: () -> Unit,
     onCarPressed: (Car) -> Unit,
 ) {
     Scaffold(
@@ -53,7 +54,7 @@ fun CarsListScreen(
         },
         floatingActionButton = {
             if (viewModel.uiState.success) {
-                FloatingActionButton(onClick = { /*TODO*/ }) {
+                FloatingActionButton(onClick = onAddPressed) {
                     Icon(
                         imageVector = Icons.Default.Add,
                         contentDescription = stringResource(R.string.adicionar)

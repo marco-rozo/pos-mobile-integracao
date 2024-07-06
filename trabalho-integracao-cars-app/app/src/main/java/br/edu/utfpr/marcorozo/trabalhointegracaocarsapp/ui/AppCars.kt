@@ -10,6 +10,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import br.edu.utfpr.marcorozo.trabalhointegracaocarsapp.ui.car.form.CarFormScreen
 import br.edu.utfpr.marcorozo.trabalhointegracaocarsapp.ui.car.list.CarsListScreen
 
 private object Screens {
@@ -46,6 +47,9 @@ fun AppCars(
                 onCarPressed = { car ->
                     navController.navigate("${Screens.CAR_DETAILS}/${car.id}")
                 },
+                onAddPressed = {
+                    navController.navigate(Screens.CAR_FORM)
+                },
             )
         }
         composable(
@@ -67,6 +71,25 @@ fun AppCars(
                 }
             )
         }
+
+        composable(
+            route = Routes.CAR_FORM,
+            arguments = listOf(
+                navArgument(name = Arguments.ID) { type = NavType.StringType; nullable = true}
+            )
+        ) {
+            CarFormScreen(
+                onBackPressed = {
+                    navController.popBackStack()
+                },
+                onCarSaved = {
+                    navigateToListCars(navController)
+                }
+            )
+        }
+
+        //TODO  criar e adicionar formulário para "Car"
+        //formulário deev funcionar para edit e para salvar um novo "Car"
     }
 }
 

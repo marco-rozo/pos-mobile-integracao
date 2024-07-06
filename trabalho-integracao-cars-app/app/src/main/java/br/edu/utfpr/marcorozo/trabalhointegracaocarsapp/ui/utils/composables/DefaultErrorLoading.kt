@@ -1,3 +1,5 @@
+package br.edu.utfpr.marcorozo.trabalhointegracaocarsapp.ui.utils.composables
+
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
